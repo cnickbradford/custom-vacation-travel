@@ -1,0 +1,46 @@
+.menu-container {
+  position: absolute;  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  height: 100vh;
+  left: 0;
+  box-shadow: 0.5px 0px 5px 0px rgba(0,0,0,0.75);
+  z-index: 101;
+  background-color: white;
+}
+
+/* styles for smaller screens */
+.menu-list-title{
+    font-weight: 400;
+    position: relative;
+    top: 40%;
+    margin-bottom: 30%;
+}
+
+.menu-list{
+    list-style: none;
+    position: relative;
+    top: 30%;
+}
+
+.menu-list-item{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 10%;
+}
+
+@media only screen and (min-device-width: 420px){
+.menu-list-title{
+    font-size: 1.2rem;
+}
+
+/* .menu-list{
+} */
+
+.menu-list-item{
+    font-size: 1.2rem;
+}
+}
