@@ -18,6 +18,7 @@
     position: relative;
     top: 40%;
     margin-bottom: 30%;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .menu-list{
@@ -32,13 +33,28 @@
     margin-bottom: 10%;
 }
 
+/* unvisited link, a link that has been visited, and when a link is clicked */
+a:link, a:visited, a:active{
+    color: rgb(27, 27, 27);
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  
+  /* mouse over link */
+  a:hover {
+  color: rgb(37, 71, 117);  
+ 
+  }
+
 @media only screen and (min-device-width: 420px){
 .menu-list-title{
     font-size: 1.2rem;
 }
 
-/* .menu-list{
-} */
+
 
 .menu-list-item{
     font-size: 1.2rem;
