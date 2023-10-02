@@ -1,0 +1,122 @@
+.home-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100vw;
+    margin-top: 75px;
+}
+
+.homeImage{
+    height: auto;
+    width: 100vw;
+    object-fit: cover;
+    margin-left: -16px;
+}
+.image-text-container{
+    display: flex;
+    width: 170px;
+    position: absolute;
+    top: 12%;
+    left: 5%;
+}
+
+.image-text{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.25;
+    max-width: 100%;
+    font-weight: 600;
+    text-transform: uppercase;
+    word-spacing: 1px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.home-title{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1em;
+    line-height: 1.25;
+    max-width: 100%;
+    letter-spacing: .125em;
+    font-weight: 600;
+    text-transform: uppercase;
+    word-spacing: 1px;
+}
+
+.home-text-title{
+    font-family: 'Josefin Sans', sans-serif;    
+    font-size: 1em;
+    line-height: 1.25;
+    max-width: 100%;
+    letter-spacing: .125em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.home-text{
+    font-family: 'Josefin Sans', sans-serif;;
+    font-size: 1em;
+    line-height: 1.25;
+    max-width: 100%;
+    letter-spacing: .125em;
+    font-weight: 400;
+}
+
+.home-grid{
+    display: grid;
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid blue;
+}
+
+.home-grid-cell{
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
+
+.home-grid-image{
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+    .home-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+
+    .homeImage{
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .home-title{
+        font-size: 1.5em;
+    }
+
+    .home-text-title{
+        font-size: 1.5em;
+    }
+
+
+    .image-text{
+        font-size: 4em;
+    }
+
+    .image-text-container{
+        width: 400px;
+        position: absolute;
+        top: 12%;
+        left: 5%;
+    }
+}
+    
+
+

@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 import "./header.css";
 import logo from '../../images/CVT_logo.png';
 import Menu from './menu.jsx';
+import { Link } from "react-router-dom";
 
 
 const header = () => {
@@ -40,7 +41,16 @@ const header = () => {
             </>
             : null}
         </div> 
-        : <div className='header-desktop'>Desktop</div>}
+        : <div className='header-desktop'>
+          <div className='menu-list-item'><Link to="/" className="menu-link">Home</Link></div>
+          <div className='menu-list-item'><Link to="/" className="menu-link">Home</Link></div>
+          <div className='menu-list-item'><Link to="/" className="menu-link">Home</Link></div>
+          <div className='menu-list-item'><Link to="/" className="menu-link">Home</Link></div>
+          <div className='desktop-header-logo'>
+          <img className='mobile-logo' src={ logo } alt='logo' />
+          </div>
+        </div>
+        }
       </div>
     </>
   )

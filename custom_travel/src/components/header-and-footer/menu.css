@@ -18,7 +18,7 @@
     position: relative;
     top: 40%;
     margin-bottom: 30%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .menu-list{
@@ -37,7 +37,7 @@
 a:link, a:visited, a:active{
     color: rgb(27, 27, 27);
     text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 14px;
     font-weight: 400;
   }

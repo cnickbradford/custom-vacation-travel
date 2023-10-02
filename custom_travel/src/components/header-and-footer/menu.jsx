@@ -31,7 +31,7 @@ const menu = (
                 <h4 className='menu-list-title'>Custom Vacation and Travel</h4>
                 <ul className='menu-list'>
                     <li className='menu-list-item'><Link to="/" className="menu-link">Home</Link></li>
-                    <li className='menu-list-item'><Link to="/about" className='menu-link'>About us</Link> </li>
+                    <li className='menu-list-item'><Link to="/about" className='menu-link' >About us</Link> </li>
                     <li className='menu-list-item'><Link to="/agent" className='menu-link'>Meet Your Agent</Link></li>
                     <li className='menu-list-item'><Link to="/quote" className='menu-link'>Get a quote</Link></li>
                     <li className='menu-list-item'><Link to="/contact" className='menu-link'>Contact us</Link></li>
