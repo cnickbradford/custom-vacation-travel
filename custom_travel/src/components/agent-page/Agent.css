@@ -1,0 +1,46 @@
+.agent-container{
+    border: 1px solid red;
+    display: flex;
+    margin-top: 80px;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    margin-left: -9px;
+}
+
+.wedding-img{
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.wedding-text{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.25;
+    max-width: 100%;
+    font-weight: 600;
+    text-transform: uppercase;
+    word-spacing: 1px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    position: absolute;
+    width: 400px;
+}
+
+
+
+
+/* styles for larger screens */
+@media screen and (min-width: 768px) {
+    .wedding-img{
+        object-fit: cover;
+        width: 100%;
+        height: 800px;
+    }
+
+    .wedding-text{
+        font-size: 4em;
+
+    }
+}

@@ -14,7 +14,7 @@ const Home = () => {
       <img className='homeImage' src={ Greece } alt='Greece'></img>
       <h1 className='home-title'>Custom Vacation and Travel</h1>
       <h1 className='home-title'>~</h1>
-        <h1 className='home-title'>Find your dream destination</h1>
+        <h1 className='home-title'>We make dreams come true</h1>
           <div className='home-grid'>
             <div className='home-grid-cell'>
               <h2 className='home-text-title'>Explore</h2>

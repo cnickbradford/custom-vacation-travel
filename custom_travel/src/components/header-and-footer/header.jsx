@@ -43,11 +43,11 @@ const header = () => {
         </div> 
         : <div className='header-desktop'>
           <div className='menu-list-item'><Link to="/" className="menu-link">Home</Link></div>
-          <div className='menu-list-item'><Link to="/" className="menu-link">Home</Link></div>
-          <div className='menu-list-item'><Link to="/" className="menu-link">Home</Link></div>
-          <div className='menu-list-item'><Link to="/" className="menu-link">Home</Link></div>
-          <div className='desktop-header-logo'>
+          <div className='menu-list-item'><Link to="/agent" className="menu-link">More about us</Link></div>
           <img className='mobile-logo' src={ logo } alt='logo' />
+          <div className='menu-list-item'><Link to="/quote" className="menu-link">Get a quote</Link></div>
+          <div className='menu-list-item'><Link to="/contact" className="menu-link">Contact us</Link></div>
+          <div className='desktop-header-logo'>
           </div>
         </div>
         }

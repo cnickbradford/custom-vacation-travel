@@ -56,7 +56,7 @@
 }
 
 .home-text{
-    font-family: 'Josefin Sans', sans-serif;;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 1em;
     line-height: 1.25;
     max-width: 100%;
@@ -95,6 +95,7 @@
     .homeImage{
         width: 100%;
         object-fit: cover;
+        height: 800px;
     }
 
     .home-title{
