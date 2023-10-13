@@ -1,31 +1,63 @@
 .agent-container{
-    border: 1px solid red;
     display: flex;
     margin-top: 80px;
     height: 100%;
     width: 100%;
     flex-direction: column;
+    align-items: center;
     margin-left: -9px;
 }
 
 .wedding-img{
     object-fit: cover;
-    width: 100%;
+    width: 75%;
     height: auto;
 }
 
-.wedding-text{
+
+.agent-header{
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.5em;
-    line-height: 1.25;
-    max-width: 100%;
-    font-weight: 600;
-    text-transform: uppercase;
-    word-spacing: 1px;
-    color: white;
-    text-shadow: 1px 1px 1px black;
-    position: absolute;
-    width: 400px;
+    text-align: center;
+}
+
+.agent-list{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: larger;
+
+}
+
+.agent-paragraph{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: larger;
+
+}
+
+.paragraph-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin-top: 30px;
+
+}
+
+.agent-grid{
+    width: 100%;
+    height: 100%;
+    margin-top: 60px;
+}
+
+.agent-cell{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
+
+.CVT{
+    object-fit: cover;
+    width: 100%;
+    height: auto;
 }
 
 
@@ -34,13 +66,19 @@
 /* styles for larger screens */
 @media screen and (min-width: 768px) {
     .wedding-img{
+        margin-top: 100px;
         object-fit: cover;
-        width: 100%;
-        height: 800px;
+        width: 50%;
+        height: 450px;
     }
 
     .wedding-text{
         font-size: 4em;
 
+    }
+    .agent-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
     }
 }
